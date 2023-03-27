@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CN333-AS3</string>
+    <string name="topic">The 24 Game</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">x</string>
+    <string name="divide">/</string>
+    <string name="correct">play a new game</string>
+    <string name="retry">retry</string>
+    <string name="incorrect">new game</string>
+    <string name="number">%s</string>
+    <string name="random_again">random new number</string>
+    <string name="result">You %s!</string>
+</resources>
