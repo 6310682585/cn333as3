@@ -1,6 +1,27 @@
 <resources>
-    <string name="app_name">CN333-AS3</string>
-    <string name="topic">The 24 Game</string>
+    <string name="app_name">ThreeMiniGame</string>
+    <string name="game1_name">GuessGame</string>
+    <string name="game2_name">GuessGame</string>
+    <string name="game3_name">GuessGame</string>
+    <string name="title_activity_guess_game">GuessGameActivity</string>
+
+    <string name="topic">Number Guessing Game</string>
+    <string name="detail">Try to guess the number I\'m thinking of from 1 - 1000!</string>
+    <string name="number">Correct Number: %d </string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="answer">Your Guess</string>
+
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="score">Score: %d</string>
+    <string name="question_count">%d of 10 questions</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="you_scored">"You scored: %d"</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_twenty_four_quiz">TwentyFourQuiz</string>
+    <!--    <string name="play_again">Play Again</string>-->
+
+
+    <string name="topic24">The 24 Game</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="multiply">x</string>
@@ -8,7 +29,8 @@
     <string name="correct">play a new game</string>
     <string name="retry">retry</string>
     <string name="incorrect">new game</string>
-    <string name="number">%s</string>
+    <string name="number24">%s</string>
     <string name="random_again">random new number</string>
     <string name="result">You %s!</string>
+    <string name="title_activity_guess_number">GuessNumber</string>
 </resources>

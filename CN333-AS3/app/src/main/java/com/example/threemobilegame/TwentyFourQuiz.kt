@@ -1,32 +1,32 @@
-package com.example.cn333_as3
+package com.example.threemobilegame
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Button
-import androidx.compose.material.ButtonDefaults
-import androidx.compose.material.Text
+import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.cn333_as3.ui.theme.CN333AS3Theme
-import com.example.cn333_as3.ui.theme.Purple200
+import com.example.threemobilegame.ui.theme.ThreeMobileGameTheme
+import com.example.threemobilegame.ui.theme.Purple200
 
 import kotlin.random.Random
 
-class MainActivity : ComponentActivity() {
+class TwentyFourQuiz : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            CN333AS3Theme {
+            ThreeMobileGameTheme {
                 TheTwentyFourGame()
             }
         }
@@ -152,7 +152,7 @@ fun RandomNum(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.spacedBy(20.dp)
     ) {
         Text(
-            text = stringResource(R.string.topic),
+            text = stringResource(R.string.topic24),
             fontSize = 30.sp,
             fontWeight = FontWeight.Bold
         )
@@ -193,7 +193,7 @@ fun RandomNum(modifier: Modifier = Modifier) {
                             modifier = Modifier.height(100.dp).width(100.dp)
                         ) {
                             Text(
-                                text = stringResource(R.string.number, listNumber[i]),
+                                text = stringResource(R.string.number24, listNumber[i]),
                                 fontSize = 50.sp
                             )
                         }
@@ -271,6 +271,7 @@ fun RandomNum(modifier: Modifier = Modifier) {
                         fontSize = 25.sp
                     )
                 }
+
             }
         } else {
             Button(onClick = {
@@ -295,6 +296,14 @@ fun RandomNum(modifier: Modifier = Modifier) {
                     )
                 }
             }
+        }
+
+        val context = LocalContext.current
+        Button(onClick = {
+            val intent = Intent(context, MainActivity::class.java)
+            context.startActivity(intent)
+        }) {
+            Text(text = "Home")
         }
     }
 }

@@ -9,13 +9,28 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CN333AS3"
+        android:theme="@style/Theme.ThreeMobileGame"
         tools:targetApi="31">
+        <activity
+            android:name=".GuessNumber"
+            android:exported="false"
+            android:label="@string/title_activity_guess_number"
+            android:theme="@style/Theme.ThreeMobileGame" />
+        <activity
+            android:name=".TwentyFourQuiz"
+            android:exported="false"
+            android:label="@string/title_activity_twenty_four_quiz"
+            android:theme="@style/Theme.ThreeMobileGame" />
+        <activity
+            android:name=".Quiz"
+            android:exported="false"
+            android:label="@string/title_activity_quiz"
+            android:theme="@style/Theme.ThreeMobileGame" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.CN333AS3">
+            android:theme="@style/Theme.ThreeMobileGame">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

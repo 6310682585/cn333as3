@@ -1,4 +1,4 @@
-package com.example.cn333_as3.ui.theme
+package com.example.threemobilegame.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.example.cn333_as3
+package com.example.threemobilegame
 
 import org.junit.Test
 
