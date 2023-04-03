@@ -2,7 +2,7 @@
 
 Project : 3 Minigame [GuessNumberGame+QuizGame+24Game] \
 
-Demo clip : https://youtu.be/Wm9YHQI84Wk \
+Demo clip : https://youtu.be/Wm9YHQI84Wk 
 
 รายชื่อสมาชิก : \
 1.พิชญา อินทร์พิบูลย์ 6310682627 \
